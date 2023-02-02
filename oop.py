@@ -20,6 +20,9 @@ class Item:
     def apply_discount(self):
         self.price = self.price * self.pay_rate
 
+    def __repr__(self):
+        return "Item"
+
 
 
 if __name__=='__main__':
@@ -29,6 +32,5 @@ if __name__=='__main__':
     fourth_phone = Item("Samsung", 5000, 4)
     fifth_phone = Item("Huwai", 4900, 9)
 
-    for n in Item.all:
-        print(f"{n.name} price is {n.price} and we have {n.quantity} in stock.")
+    print(Item.all)
  
