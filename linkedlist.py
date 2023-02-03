@@ -33,11 +33,11 @@ class LinkedList:
 if __name__=='__main__':
     lis = LinkedList()
 
-    lis.print_linked_list()
+    
     lis.insert("4")
-    lis.print_linked_list()
+    
     lis.insert("7")
-    lis.print_linked_list()
+    
     lis.insert("44")
     lis.print_linked_list()
 
